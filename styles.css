@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Karla&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(204, 43%, 93%);
+  font-family: karla;
+}
+
+main {
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 400px;
+  width: 50%;
+}
+
+.top {
+  border-radius: 10px 10px 0 0;
+  padding: 30px;
+  height: 40%;
+  width: 100%;
+}
+
+.top h2 {
+  color: hsl(179, 62%, 43%);
+}
+
+.top h4 {
+  margin-top: 20px;
+  color: hsl(71, 73%, 54%);
+}
+
+.top p {
+  margin-top: 10px;
+  color: hsl(218, 22%, 67%);
+}
+
+.bottom {
+  color: white;
+  border-radius: 0 0 10px 10px;
+  height: 60%;
+  display: flex;
+  width: 100%;
+}
+
+.bottom-left {
+  background-color: hsl(179, 62%, 43%);
+  width: 50%;
+  margin-top: 10px;
+  padding: 30px;
+  border-radius: 0 0 0 10px;
+}
+
+.bottom-left .price {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  color: hsl(219, 25%, 84%);
+}
+
+span {
+  font-size: 30px;
+  margin-right: 5px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.bottom-left .button {
+  background-color: hsl(71, 73%, 54%);
+  width: 86%;
+  margin-top: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.bottom-right {
+  background-color: hsl(179, 59%, 59%);
+  width: 50%;
+  margin-top: 10px;
+  padding: 16px;
+  border-radius: 0 0 10px 0;
+
+}
+
+.bottom-right .content {
+  width: 58%;
+  color: hsl(217, 41%, 90%);
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.content h4 {
+  color: #fff;
+  margin-bottom: 10px;
+}
